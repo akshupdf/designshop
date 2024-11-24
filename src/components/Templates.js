@@ -57,7 +57,7 @@ const Templates = () => {
   }
 
   return (
-    <div className="relative w-full  h-screen  mx-auto" name="temp">
+    <div className="relative w-[100%] overflow-hidden h-screen  mx-auto" name="temp">
       {/* Main Slide */}
       <div className="relative h-screen  rounded-lg">
         {slides.map((slide, index) => (

@@ -24,7 +24,7 @@ export default function ReachOut() {
 
 
 </div>
-<p className='text-center'>Copyright © 2024 by The Designs Shop. All Rights Reserved.</p>
+<p className='text-center'>Copyright © 2024 by The Design Shop. All Rights Reserved.</p>
     </div>
   )
 }

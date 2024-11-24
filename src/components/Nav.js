@@ -16,7 +16,7 @@ const Navbar = () => {
 
 
   return (
-<div className='w-[100%] bg-black flex opacity-40 hover:opacity-80 justify-between items-center fixed z-20  text-white'>
+<div className='w-[100%] bg-black flex lg:opacity-40 hover:opacity-80 justify-between items-center fixed z-20  text-white'>
   
 
 <img src={logo} alt='logo '  className='w-20  '/>
@@ -36,7 +36,7 @@ const Navbar = () => {
     </div>       
     <div className={nav ? 'fixed left-0 top-8 w-[60%] bg-black  h-full border-r border-r-gray-900 bg-gray-[#808080] ease-in-out duration-500' : 'fixed left-[-100%]'}>
 
-    <h1 className='w-full text-3xl font-bold  text-[#808080]'>Akshupdf </h1>
+    {/* <h1 className='w-full text-3xl font-bold  text-[#808080]'>Akshupdf </h1> */}
 
    
       <ul className=  ' pt-10'>
